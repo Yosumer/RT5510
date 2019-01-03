@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program Files\IAR Systems\Embedded Workbench\common\bin\cspybat" -f "F:\荣泰健康\按摩椅\RT5510\RT5512用户程序\RT5510\settings\RT5510.Debug.general.xcl" --backend -f "F:\荣泰健康\按摩椅\RT5510\RT5512用户程序\RT5510\settings\RT5510.Debug.driver.xcl" 
+"D:\Program Files\IAR Systems\Embedded Workbench\common\bin\cspybat" -f "F:\荣泰健康\按摩椅\RT5510\RT5510用户程序\RT5510\settings\RT5510.Debug.general.xcl" --backend -f "F:\荣泰健康\按摩椅\RT5510\RT5510用户程序\RT5510\settings\RT5510.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program Files\IAR Systems\Embedded Workbench\common\bin\cspybat" -f "F:\荣泰健康\按摩椅\RT5510\RT5512用户程序\RT5510\settings\RT5510.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\荣泰健康\按摩椅\RT5510\RT5512用户程序\RT5510\settings\RT5510.Debug.driver.xcl" 
+"D:\Program Files\IAR Systems\Embedded Workbench\common\bin\cspybat" -f "F:\荣泰健康\按摩椅\RT5510\RT5510用户程序\RT5510\settings\RT5510.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\荣泰健康\按摩椅\RT5510\RT5510用户程序\RT5510\settings\RT5510.Debug.driver.xcl" 
 
 @echo off 
 :end
