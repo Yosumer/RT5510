@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <Interrupts>
+        <Enabled>1</Enabled>
+    </Interrupts>
+    <MemoryMap>
+        <Enabled>0</Enabled>
+        <Base>0</Base>
+        <UseAuto>0</UseAuto>
+        <TypeViolation>1</TypeViolation>
+        <UnspecRange>1</UnspecRange>
+        <ActionState>1</ActionState>
+    </MemoryMap>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <Simulator>
+        <Freq>16000000</Freq>
+    </Simulator>
+    <DebugChecksum>
+        <Checksum>2239179313</Checksum>
+    </DebugChecksum>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <Log_file>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </Log_file>
+    <array_types>
+        <Fmt0>uint8_t[87]	4	0</Fmt0>
+        <Fmt1>unsigned char[17]	4	0</Fmt1>
+        <Fmt2>unsigned char[20]	4	0</Fmt2>
+        <Fmt3>unsigned char[7]	4	0</Fmt3>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}42:Button	4	0</Fmt0>
+        <Fmt1>{W}42:autoStep	3	0</Fmt1>
+        <Fmt2>{W}42:ch	4	0</Fmt2>
+        <Fmt3>{W}42:flgRunInUserApp	4	0</Fmt3>
+        <Fmt4>{W}42:nChairRunState	4	0</Fmt4>
+    </watch_formats>
+    <DataSample>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+    </DataSample>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <Breakpoints>
+        <Bp0>_ "STD_DATA" "TIM1_CtrlPWMOutputs" 0 0 0 3 0 "" 0 ""</Bp0>
+        <Bp1>_ "STD_CODE" "{E:\按摩椅\RT5512，RT5510：STM8 BOOTLOAD(2018-10-23)}.92.37" 0 0 0 0 "" 0 ""</Bp1>
+        <Bp2>_ "STD_CODE" "{}.836.4" 0 0 0 0 "" 0 ""</Bp2>
+        <Bp3>_ "STD_CODE" "{}.900.5" 0 0 0 0 "" 0 ""</Bp3>
+        <Count>4</Count>
+    </Breakpoints>
+    <Aliases>
+        <A0>_ "C:\Users\8100068\Desktop\RT5510\Input.c" ""</A0>
+        <A1>_ "C:\Users\8100068\Desktop\RT5510\KneadMotor.c" ""</A1>
+        <A2>_ "C:\Users\8100068\Desktop\RT5510\lib\src\stm8s_clk.c" ""</A2>
+        <A3>_ "C:\Users\8100068\Desktop\RT5510\lib\src\stm8s_gpio.c" ""</A3>
+        <A4>_ "C:\Users\8100068\Desktop\RT5510\lib\src\stm8s_tim1.c" ""</A4>
+        <A5>_ "C:\Users\8100068\Desktop\RT5510\lib\src\stm8s_tim3.c" ""</A5>
+        <A6>_ "C:\Users\8100068\Desktop\RT5510\lib\src\stm8s_uart2.c" ""</A6>
+        <A7>_ "C:\Users\8100068\Desktop\RT5510\main.c" ""</A7>
+        <A8>_ "D:\work\RT5510\main.c" ""</A8>
+        <Count>9</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+    <DebuggerSettings>
+        <DisableInterruptsWhenStepping>0</DisableInterruptsWhenStepping>
+        <LeaveTargetRunning>0</LeaveTargetRunning>
+    </DebuggerSettings>
+</settings>

@@ -1,0 +1,9 @@
+---- sequenceNumber Matches (8 in 1 files) ----
+Xmodem.c (c:\users\rt4797\desktop\1.boot\driver): * @param sequenceNumber The current sequence number.
+Xmodem.c (c:\users\rt4797\desktop\1.boot\driver): int XMODEM_verifyPacketChecksum(XMODEM_packet *pkt, int sequenceNumber)
+Xmodem.c (c:\users\rt4797\desktop\1.boot\driver):  if (pkt->packetNumber != (sequenceNumber % 256))
+Xmodem.c (c:\users\rt4797\desktop\1.boot\driver):  uint32_t      sequenceNumber = 1;
+Xmodem.c (c:\users\rt4797\desktop\1.boot\driver):    pkt = (XMODEM_packet *) rawPacket[sequenceNumber & 1];
+Xmodem.c (c:\users\rt4797\desktop\1.boot\driver):    if (XMODEM_verifyPacketChecksum(pkt, sequenceNumber) != 0)
+Xmodem.c (c:\users\rt4797\desktop\1.boot\driver):                     (sequenceNumber - 1) * XMODEM_DATA_SIZE,
+Xmodem.c (c:\users\rt4797\desktop\1.boot\driver):    sequenceNumber++;
