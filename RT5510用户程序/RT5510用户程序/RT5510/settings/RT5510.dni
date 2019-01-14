@@ -1,0 +1,87 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Simulator]
+Freq=16000000
+[DebugChecksum]
+Checksum=-864935389
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[array_types]
+Fmt0=uint8_t[87]	4	0
+Fmt1=unsigned char[17]	4	0
+Fmt2=unsigned char[20]	4	0
+Fmt3=unsigned char[7]	4	0
+[watch_formats]
+Fmt0={W}42:Button	4	0
+Fmt1={W}42:autoStep	3	0
+Fmt2={W}42:ch	4	0
+Fmt3={W}42:flgRunInUserApp	4	0
+Fmt4={W}42:nChairRunState	4	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_DATA" "TIM1_CtrlPWMOutputs" 0 0 0 3 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\RT5512£¬RT5510£ºSTM8 BOOTLOAD(2018-10-23)}.92.37" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{}.836.4" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{}.900.5" 0 0 0 0 "" 0 ""
+Count=4
+[Aliases]
+A0=_ "C:\Users\8100068\Desktop\RT5510\Input.c" ""
+A1=_ "C:\Users\8100068\Desktop\RT5510\KneadMotor.c" ""
+A2=_ "C:\Users\8100068\Desktop\RT5510\lib\src\stm8s_clk.c" ""
+A3=_ "C:\Users\8100068\Desktop\RT5510\lib\src\stm8s_gpio.c" ""
+A4=_ "C:\Users\8100068\Desktop\RT5510\lib\src\stm8s_tim1.c" ""
+A5=_ "C:\Users\8100068\Desktop\RT5510\lib\src\stm8s_tim3.c" ""
+A6=_ "C:\Users\8100068\Desktop\RT5510\lib\src\stm8s_uart2.c" ""
+A7=_ "C:\Users\8100068\Desktop\RT5510\main.c" ""
+A8=_ "D:\work\RT5510\main.c" ""
+Count=9
+SuppressDialog=0
+[DebuggerSettings]
+DisableInterruptsWhenStepping=0

@@ -1,0 +1,48 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-309305353
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\driver\xmodem.c}.218.3" 0 0 0 0 "" 0 ""
+Count=1
+[Aliases]
+A0=_ "C:\Users\rt4797\Desktop\STM8boot(XMODE)\STM8S_StdPeriph_Driver\src\stm8s_clk.c" ""
+A1=_ "C:\Users\rt4797\Desktop\STM8boot(XMODE)\STM8S_StdPeriph_Driver\src\stm8s_uart2.c" ""
+A2=_ "C:\Users\rt4797\Desktop\STM8boot(XMODE)\driver\crc.c" ""
+A3=_ "C:\Users\rt4797\Desktop\STM8boot(XMODE)\driver\xmodem.c" ""
+A4=_ "D:\同事文件夹\陈国森\STM8boot(XMODE)\STM8boot(XMODE)\main.c" ""
+A5=_ "E:\zhang\我的项目\RT5512,  RT5510 STM8 BOOTLOAD  (2018-12-07)\STM8boot(XMODE)(1)\STM8boot(XMODE)\STM8boot(XMODE)\STM8S_StdPeriph_Driver\src\stm8s_clk.c" ""
+A6=_ "E:\zhang\我的项目\RT5512,  RT5510 STM8 BOOTLOAD  (2018-12-07)\STM8boot(XMODE)(1)\STM8boot(XMODE)\STM8boot(XMODE)\STM8S_StdPeriph_Driver\src\stm8s_uart2.c" ""
+A7=_ "E:\zhang\我的项目\RT5512,  RT5510 STM8 BOOTLOAD  (2018-12-07)\STM8boot(XMODE)(1)\STM8boot(XMODE)\STM8boot(XMODE)\driver\crc.c" ""
+A8=_ "E:\zhang\我的项目\RT5512,  RT5510 STM8 BOOTLOAD  (2018-12-07)\STM8boot(XMODE)(1)\STM8boot(XMODE)\STM8boot(XMODE)\driver\xmodem.c" ""
+A9=_ "E:\zhang\我的项目\RT5512,  RT5510 STM8 BOOTLOAD  (2018-12-07)\STM8boot(XMODE)(1)\STM8boot(XMODE)\STM8boot(XMODE)\main.c" ""
+A10=_ "E:\zhang\我的项目\RT5512,  RT5510 STM8 BOOTLOAD  (2018-12-15)V2.03\STM8boot(XMODE)\STM8S_StdPeriph_Driver\src\stm8s_uart2.c" ""
+A11=_ "E:\zhang\我的项目\RT5512,  RT5510 STM8 BOOTLOAD  (2018-12-15)\STM8boot(XMODE)(1)\STM8boot(XMODE)\STM8boot(XMODE)\STM8S_StdPeriph_Driver\src\stm8s_uart2.c" ""
+A12=_ "E:\zhang\我的项目\RT5512,  RT5510 STM8 BOOTLOAD  (2018-12-15)\STM8boot(XMODE)(1)\STM8boot(XMODE)\STM8boot(XMODE)\main.c" ""
+Count=13
+SuppressDialog=1
+[DebuggerSettings]
+DisableInterruptsWhenStepping=0
